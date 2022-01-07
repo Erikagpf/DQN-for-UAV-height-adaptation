@@ -1,0 +1,3 @@
+This git provides the code used in the Erika Fonseca's thesis. The work focused in UAV height optimization and uses DQL to dynamically adapt the UAV altitude.
+Folder "DQN_UAV_measurament" contains the files used for Chapter 4 of the thesis. This files were used in the analises done in the commercial data collected in Dublin city centre.
+Folder "Simulation" contains the height adaptation analizes performed in the UAV RF simulator developed by Dr. Boris Galkin during his PhD. 
