@@ -777,10 +777,10 @@ for(m in 1:MCtrials){
           epsilon = max(MIN_EPSILON, epsilon)
         }
         
-        # if(j%%5==0){
-        #   #once every 5 episodes update the targetModel to have the same weights as the model
-        #   targetModel  %>% set_weights(model %>% get_weights())
-        # }
+        if(j%%5==0){
+          #once every 5 episodes update the targetModel to have the same weights as the model
+          targetModel  %>% set_weights(model %>% get_weights())
+        }
         previous_reward = reward
       }#steps
      
